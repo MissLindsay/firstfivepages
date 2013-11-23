@@ -9,8 +9,23 @@
 		    <?php include 'head.php';
 			      ?>
 				  
-				  
-				  
+			<div id="countTotals">
+			<div class="countBlock">
+			    <div class="current">
+				    <div class="currentCurrent">Current</div>
+					<div class="currentNumber">95</div>
+				</div>
+				<div class="allTime">
+				    <div class="allTimeAllTime">All Time</div>
+					<div class="allTimeNumber">127</div>
+				</div>
+			</div>
+			</div>
+			</div>
+				
+			<div id="todaysPreviews">
+                <div class="previewBar"></div>
+                <div class="previewList"></div>				
 			<script src="http://code.jquery.com/jquery.js"></script>
             <script src="assets/js/bootstrap.min.js"></script>
 	
