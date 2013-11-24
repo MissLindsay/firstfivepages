@@ -11,6 +11,10 @@ body {
 	color:#FFFFFF;
 }
 
+.navbar-inverse .navbar-brand {
+    color:white;
+}
+
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover, 
 .navbar-inverse .navbar-nav > .active > a:focus {
@@ -28,13 +32,39 @@ body {
 }
 
 @media (max-width: 767px) {
-.navbar-collapse.in {
-    background-color:#333333;
+    .navbar-collapse.in {
+        background-color:#333333;
+    }
+
+    .navbar-collapse.in .navbar-nav > .active > a,
+    .navbar-collapse.in .navbar-nav > .active > a:hover,
+    .navbar-collapse.in .navbar-nav > .active > a:focus  {
+        background-color:#555555;
+    }
 }
 
-.navbar-collapse.in .navbar-nav > .active > a,
-.navbar-collapse.in .navbar-nav > .active > a:hover,
-.navbar-collapse.in .navbar-nav > .active > a:focus  {
-    background-color:#555555;
+.footerClass {
+background-color: #950000;
+position: relative;
+width: 100%;
 }
+
+.purchase {
+color: #FFFFFF;
+font-size: 16px;
+margin-left:5px;
+margin-top:10px;
 }
+
+.menu2 {
+text-align:center;
+margin-top:5px;
+}
+
+.nextStory {
+color: #FFFFFF;
+font-size: 16px;
+margin-right:5px;
+margin-top:10px;
+float:right;
+}   
